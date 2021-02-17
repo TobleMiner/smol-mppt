@@ -1,0 +1,80 @@
+Source,/home/tsys/work/pcb/LTC4162-board/LTC4162-board.sch
+Kicad Rev,Eeschema 5.1.9
+Generated Date,Mi 17 Feb 2021 19:06:55 CET
+
+Title,Not Set
+Company,Not Set
+Revision,Not Set
+Date Issue,Not Set
+
+Reference,Value,LCSC,Library,Library Ref
+U1,LTC4162-L,Charger_LT,LTC4162-L
+R12,10mR,C26119,Device,R
+Q1,Q_NMOS_GDS,C194346,Device,Q_NMOS_GDS
+C4,22 nF,C1532,Device,C
+L1,4.7 uH,C207840,Device,L
+R17,10kR,C25744,Device,R
+TH1,10kR,C92371,Device,Thermistor_NTC
+C7,1uF,C52923,Device,C
+C9,4.7uF,C23733,Device,C
+C8,10uF,C13585,Device,C
+C2,100nF HV,C14663,Device,C
+R3,DNP,Device,R
+C1,220 uF,C125977,Device,CP
+C12,22 uF,C45783,Device,C
+J2,Conn_01x02,Connector_Generic,Conn_01x02
+R6,68kR,C36871,Device,R
+JP1,SolderJumper_4_Bridged23,Solder_Jumper_3way,SolderJumper_4_Bridged23
+E2,SPARK_GAP,Device,SPARK_GAP
+E3,SPARK_GAP,Device,SPARK_GAP
+E4,SPARK_GAP,Device,SPARK_GAP
+E1,SPARK_GAP,Device,SPARK_GAP
+J3,Conn_02x03_Odd_Even,Connector_Generic,Conn_02x03_Odd_Even
+R2,100R,C17408,Device,R
+D1,D_Zener,C8062,Device,D_Zener
+R1,200 R,C25087,Device,R
+F1,5 A,C182446,Device,Fuse
+C13,22 uF,C45783,Device,C
+C6,100nF HV,C14663,Device,C
+R7,1MR,C26083,Device,R
+R22,1MR,C26083,Device,R
+R4,100kR,C25741,Device,R
+R5,100kR,C25741,Device,R
+F2,5 A,C182446,Device,Fuse
+R26,Pb,Device,R
+R25,LiFePo4,Device,R
+R24,LiIon/LiPo,Device,R
+Q2,Q_NMOS_GDS,C194346,Device,Q_NMOS_GDS
+R23,10mR,C26119,Device,R
+D2,M7,C95872,Device,D
+D7,M7,C95872,Device,D
+R27,200R,C17540,Device,R
+R20,510R,C25123,Device,R
+R21,160kR,C22813,Device,R
+R14,200 R,C25087,Device,R
+R15,200 R,C25087,Device,R
+R16,200 R,C25087,Device,R
+R8,100R,C17408,Device,R
+R9,100R,C17408,Device,R
+R10,100R,C17408,Device,R
+C11,33nF,C1585,Device,C
+C15,33nF,C1585,Device,C
+R11,100R,C25076,Device,R
+C3,100nF,C1525,Device,C
+C10,33nF,C1585,Device,C
+C14,33nF,C1585,Device,C
+D3,D_Zener,C8062,Device,D_Zener
+D4,D_Zener,C8062,Device,D_Zener
+D5,D_Zener,C8062,Device,D_Zener
+J4,Conn_01x02,Connector_Generic,Conn_01x02
+R13,100R,C25076,Device,R
+R18,100R,C25076,Device,R
+R19,100R,C25076,Device,R
+C5,100nF,C1525,Device,C
+C16,100nF HV,C14663,Device,C
+JP2,SolderJumper_4_Bridged24,Solder_Jumper_3way,SolderJumper_4_Bridged24
+H2,MountingHole,Mechanical,MountingHole
+H1,MountingHole,Mechanical,MountingHole
+R28,2.2R,C17521,Device,R
+R29,33R,C25105,Device,R
+R30,27kR,C25771,Device,R
