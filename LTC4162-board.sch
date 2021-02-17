@@ -344,24 +344,6 @@ F 4 "C45783" H 9050 3600 50  0001 C CNN "LCSC"
 $EndComp
 Wire Wire Line
 	9050 3450 9050 3200
-Wire Wire Line
-	1200 1450 1350 1450
-Wire Wire Line
-	1350 1450 1350 1350
-Wire Wire Line
-	1350 1350 1200 1350
-Wire Wire Line
-	1200 1550 1350 1550
-Wire Wire Line
-	1350 1550 1350 1650
-Wire Wire Line
-	1350 1650 1200 1650
-Wire Wire Line
-	1350 1100 1350 1350
-Wire Wire Line
-	1350 1100 1950 1100
-Connection ~ 1350 1350
-Connection ~ 1350 1650
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 602E773A
@@ -389,11 +371,7 @@ Connection ~ 2750 1900
 Wire Wire Line
 	2750 1900 2750 1850
 Wire Wire Line
-	1350 1900 1350 1650
-Wire Wire Line
 	1950 1550 1950 1900
-Wire Wire Line
-	1950 1900 1350 1900
 Wire Wire Line
 	8050 4100 8050 3750
 Connection ~ 8050 4100
@@ -765,7 +743,6 @@ Wire Wire Line
 Connection ~ 2750 1100
 Wire Wire Line
 	2050 1100 1950 1100
-Connection ~ 1950 1100
 Wire Wire Line
 	2450 1900 2750 1900
 Wire Wire Line
@@ -776,7 +753,6 @@ Wire Wire Line
 Wire Wire Line
 	2450 1900 1950 1900
 Connection ~ 2450 1900
-Connection ~ 1950 1900
 Text Label 4100 3600 0    50   ~ 0
 CELLS0
 Text Label 4100 3750 0    50   ~ 0
@@ -1471,24 +1447,6 @@ F 4 "C8062" H 5650 7200 50  0001 C CNN "LCSC"
 	1    5650 7200
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	10700 4150 10550 4150
-Wire Wire Line
-	10550 4150 10550 4250
-Wire Wire Line
-	10550 4250 10700 4250
-Wire Wire Line
-	10700 4050 10550 4050
-Wire Wire Line
-	10550 4050 10550 3950
-Wire Wire Line
-	10550 3950 10700 3950
-Wire Wire Line
-	10550 4500 10550 4250
-Wire Wire Line
-	10550 4500 9950 4500
-Connection ~ 10550 4250
-Connection ~ 10550 3950
 $Comp
 L Connector_Generic:Conn_01x02 J?
 U 1 1 605489D0
@@ -1505,29 +1463,15 @@ $EndComp
 Wire Wire Line
 	10100 4150 9950 4150
 Wire Wire Line
-	9950 4150 9950 4500
-Wire Wire Line
 	10100 4050 9950 4050
-Wire Wire Line
-	10550 3700 10550 3950
-Wire Wire Line
-	9950 4050 9950 3700
-Wire Wire Line
-	9950 3700 10550 3700
 Wire Wire Line
 	9900 3200 9950 3200
 Wire Wire Line
 	9600 3200 9550 3200
 Connection ~ 9550 3200
-Wire Wire Line
-	9950 3700 9950 3200
-Connection ~ 9950 3700
 Connection ~ 9950 3200
 Wire Wire Line
-	9950 4500 9950 5150
-Wire Wire Line
 	9950 5150 9550 5150
-Connection ~ 9950 4500
 Connection ~ 9550 5150
 $Comp
 L Device:R R?
@@ -1742,4 +1686,8 @@ Wire Wire Line
 Wire Wire Line
 	7100 4450 7050 4450
 Connection ~ 7050 4450
+Wire Wire Line
+	9950 4150 9950 5150
+Wire Wire Line
+	9950 3200 9950 4050
 $EndSCHEMATC
