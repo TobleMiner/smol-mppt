@@ -1,0 +1,7 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC4162-L
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC4162-L.pdf
+$ENDCMP
+#
+#End Doc Library

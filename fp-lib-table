@@ -1,0 +1,8 @@
+(fp_lib_table
+  (lib (name Connector_XT)(type KiCad)(uri ${KIPRJMOD}/lib/Connector_XT.pretty)(options "")(descr ""))
+  (lib (name Jumper_3Way)(type KiCad)(uri ${KIPRJMOD}/lib/Jumper_3Way.pretty)(options "")(descr ""))
+  (lib (name spark-gap)(type KiCad)(uri ${KIPRJMOD}/lib/spark-gap.pretty)(options "")(descr ""))
+  (lib (name Inductor_Sunitech)(type KiCad)(uri ${KIPRJMOD}/lib/Inductor_Sunitech.pretty)(options "")(descr ""))
+  (lib (name Package_QFN_linear)(type KiCad)(uri ${KIPRJMOD}/lib/Package_QFN_linear.pretty)(options "")(descr ""))
+  (lib (name ToolingHole)(type KiCad)(uri ${KIPRJMOD}/lib/ToolingHole.pretty)(options "")(descr ""))
+)

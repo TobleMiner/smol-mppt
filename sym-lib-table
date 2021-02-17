@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Charger_LT)(type Legacy)(uri ${KIPRJMOD}/lib/Charger_LT.lib)(options "")(descr ""))
+  (lib (name Solder_Jumper_3way)(type Legacy)(uri ${KIPRJMOD}/lib/Solder_Jumper_3way.lib)(options "")(descr ""))
+)
