@@ -1,6 +1,6 @@
 Source,/home/tsys/work/pcb/LTC4162-board/LTC4162-board.sch
 Kicad Rev,Eeschema 5.1.9
-Generated Date,Mi 17 Feb 2021 19:06:55 CET
+Generated Date,Mi 17 Feb 2021 21:58:19 CET
 
 Title,Not Set
 Company,Not Set
@@ -20,8 +20,7 @@ C9,4.7uF,C23733,Device,C
 C8,10uF,C13585,Device,C
 C2,100nF HV,C14663,Device,C
 R3,DNP,Device,R
-C1,220 uF,C125977,Device,CP
-C12,22 uF,C45783,Device,C
+C1,100uF,C249996,Device,CP
 J2,Conn_01x02,Connector_Generic,Conn_01x02
 R6,68kR,C36871,Device,R
 JP1,SolderJumper_4_Bridged23,Solder_Jumper_3way,SolderJumper_4_Bridged23
@@ -34,8 +33,7 @@ R2,100R,C17408,Device,R
 D1,D_Zener,C8062,Device,D_Zener
 R1,200 R,C25087,Device,R
 F1,5 A,C182446,Device,Fuse
-C13,22 uF,C45783,Device,C
-C6,100nF HV,C14663,Device,C
+C6,10uF HV,C13585,Device,C
 R7,1MR,C26083,Device,R
 R22,1MR,C26083,Device,R
 R4,100kR,C25741,Device,R
@@ -44,11 +42,9 @@ F2,5 A,C182446,Device,Fuse
 R26,Pb,Device,R
 R25,LiFePo4,Device,R
 R24,LiIon/LiPo,Device,R
-Q2,Q_NMOS_GDS,C194346,Device,Q_NMOS_GDS
 R23,10mR,C26119,Device,R
 D2,M7,C95872,Device,D
 D7,M7,C95872,Device,D
-R27,200R,C17540,Device,R
 R20,510R,C25123,Device,R
 R21,160kR,C22813,Device,R
 R14,200 R,C25087,Device,R
@@ -78,3 +74,8 @@ H1,MountingHole,Mechanical,MountingHole
 R28,2.2R,C17521,Device,R
 R29,33R,C25105,Device,R
 R30,27kR,C25771,Device,R
+Q2,2N7002K,C8545,Transistor_FET,2N7002K
+C12,10uF HV,C13585,Device,C
+C13,CP,C249984,Device,CP
+D6,LED GRN,C72043,Device,LED
+R27,10kR,C25744,Device,R
